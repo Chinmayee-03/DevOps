@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+form
+{
+background: linear-gradient(#2193b0 , #6dd5ed);
+}
+
+button
+{
+background:red;
+color:white;
+padding: 4px 20px;
+border-radius: 4px;
+cursor: pointer;
+}
+h1
+{
+color:white;
+}
+
+</style>
+</head>
+<body>
+
+<form onsubmit=myalert()>
+<div style="text-align:center">
+<h1>Registraion Form</h1>
+
+<hr>
+<p>Enter the Student details:</p>
+<label id="un">Username:</label>
+<input for="un" type="text" name="User" placeholder="Name"><//n><br>
+<label id="un">Password:</label>
+<input id="pass" type="password" name="password" placeholder="Password"><//n><br>
+<hr>
+<label>Gender: </label>
+<input type="radio" name="gender" value="male">
+<label> Male </label><//n>
+<input type="radio" name="gender" value="Female">
+<label> Female </label><//n>
+<hr>
+<label> Age:</label><//n>
+<input type:"number" placeholder="Age"><//n><br>
+<p> Thank you!</p>
+<button type="submit"> Submit </button>
+</div>
+<script>
+function myalert(){
+alert("successful submission");
+}
+</script>
+</form>
+</body>
+</html>
